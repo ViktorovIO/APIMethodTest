@@ -1,0 +1,46 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking core.codepr.ru (be patient).....done
+
+
+Server Software:        cloudflare
+Server Hostname:        core.codepr.ru
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-ECDSA-CHACHA20-POLY1305,256,256
+Server Temp Key:        ECDH X25519 253 bits
+TLS Server Name:        core.codepr.ru
+
+Document Path:          /api/v2/crm/user_create_or_update
+Document Length:        27 bytes
+
+Concurrency Level:      10
+Time taken for tests:   0.423 seconds
+Complete requests:      10
+Failed requests:        0
+Non-2xx responses:      10
+Total transferred:      9772 bytes
+HTML transferred:       270 bytes
+Requests per second:    23.63 [#/sec] (mean)
+Time per request:       423.109 [ms] (mean)
+Time per request:       42.311 [ms] (mean, across all concurrent requests)
+Transfer rate:          22.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      125  142  11.1    139     166
+Processing:    58   76  12.1     78      97
+Waiting:       56   76  12.3     78      96
+Total:        183  218  18.5    222     241
+
+Percentage of the requests served within a certain time (ms)
+  50%    222
+  66%    225
+  75%    234
+  80%    238
+  90%    241
+  95%    241
+  98%    241
+  99%    241
+ 100%    241 (longest request)

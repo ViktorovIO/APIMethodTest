@@ -1,3 +1,13 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+user_create_or_update:
+  path: /userCreateOrUpdate
+  controller: App\Controller\UserCreateOrUpdateController::post
+  methods: [POST]
+
+server_version:
+  path: /serverLoadTesting
+  controller: App\Controller\UserCreateOrUpdateController::server
+  methods: [GET]
